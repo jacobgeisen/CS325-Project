@@ -9,8 +9,8 @@ This project uses two different language models, TinyLlama and Phi-1.5, to class
 ### 1. **Clone the Repository**
 
 ```sh
-git clone <your-repo-link>
-cd <your-project-folder>
+git clone https://github.com/jacobgeisen/CS325-Project.git
+cd P1
 ```
 
 ### 2. **Set Up the Environment**
@@ -18,8 +18,8 @@ cd <your-project-folder>
 To ensure consistency, clone the environment using the provided YAML file:
 
 ```sh
-conda env create -f environment.yaml
-conda activate sentiment-env
+conda env create -f requirement.yaml
+conda activate P1
 ```
 
 ## Running the Program
@@ -45,24 +45,11 @@ This will:
 Each headline in `responses.txt` will be labeled with a sentiment:
 
 ```
-Phi-1.5 Sentiment Classification:
+Phi-1.5 -------------
 Headline: A shocking Chinese AI advancement called DeepSeek is sending US stocks plunging
-Sentiment: negative
+Response: negative
 
-TinyLlama Sentiment Classification:
+TinyLlama -------------
 Headline: As sales slump, Kohl’s turns to a new CEO to bring back customers
-Sentiment: negative
+Response: negative
 ```
-
-
-
-
-
-
-
-
-
-conda install -c conda-forge pytorch
-conda install -c conda-forge transformers
-conda install -c conda-forge sentencepiece
-conda install -c conda-forge protobuf
