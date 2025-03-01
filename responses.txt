@@ -1,0 +1,20 @@
+Phi-1.5 Sentiment Classification:
+Headline: A shocking Chinese AI advancement called DeepSeek is sending US stocks plunging
+Response: negative
+
+Headline: As sales slump, Kohl’s turns to a new CEO to bring back customers
+Response: positive
+
+Headline: Expect record-high egg prices for most of the year
+Response: positive
+
+TinyLlama Sentiment Classification:
+Headline: A shocking Chinese AI advancement called DeepSeek is sending US stocks plunging
+Response: negative
+
+Headline: As sales slump, Kohl’s turns to a new CEO to bring back customers
+Response: neutral
+
+Headline: Expect record-high egg prices for most of the year
+Response: neutral
+
